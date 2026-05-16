@@ -1,0 +1,11 @@
+student_id,name,math_mark,science_mark
+101,Alice,85.0,92.0
+102,Bob,70.0,
+103,Charlie,88.0,88.0
+104,David,,75.0
+105,Eve,95.0,95.0
+102,Bob,70.0,
+106,Frank,60.0,65.0
+107,Grace,82.0,82.0
+108,Heidi,,90.0
+101,Alice,85.0,92.0
