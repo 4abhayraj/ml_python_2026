@@ -1,18 +1,13 @@
-# Q. Write a python programs to add a new key-value pair
-student={"name":"Abhay","age":20, "grade":"B"}
-student()
+student={"name": "Abhay", "age": 20, "grade": "B"}
 
+student["sec"]="A"
+print(student)
 
+student["name"]="Sachin"
+print(student)
 
-
-
-
-
-
-
-
-
-
+print(student["name"])
+print(student.get("age","age is not found"))
 
 
 
