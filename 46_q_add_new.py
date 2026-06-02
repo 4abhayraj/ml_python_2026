@@ -1,27 +1,12 @@
 student={"name": "Abhay", "age": 20, "grade": "B"}
 
-student["sec"]="A"
+student["sec"]="A"  #new key value pair added
 print(student)
 
-student["name"]="Sachin"
+student["name"]="Sachin" #key is modified
 print(student)
-
 print(student["name"])
-print(student.get("age","age is not found"))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(student.get("grade","not found"))
 
 
 

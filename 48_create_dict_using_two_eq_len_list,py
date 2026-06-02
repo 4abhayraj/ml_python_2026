@@ -1,0 +1,8 @@
+keyss=["name","age","country"]
+values=["Abhay",20,"india"]
+
+emp_dict={}
+for i in range(0, len(keyss)):
+    print(keyss[i])
+    emp_dict[keyss[i]]=values[i]
+print(emp_dict)

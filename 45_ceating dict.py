@@ -7,7 +7,7 @@ print(user_info)
 
 
 #Accessing Dictionary item []
-d={"name":"Abhay", "age":"20",}
+d={"name":"Abhay", "age":"20"}
 print(d["name"])
 
 print(d.get("age","not found"))
