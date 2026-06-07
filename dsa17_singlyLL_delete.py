@@ -6,7 +6,7 @@ class Node:
     #(self,info,next) => parameter
     def __init__(self,info,next=None): #this pointer in c, 
 #whichever object created by init function, its address will be stroed in self named variable
-        self.data = info # self will point oblect
+        self.data = info # self will point object
         self.next = next 
 class SinglyLinkedlist:
     def __init__(self,head=None): #no. of head == no. of singly linked list
@@ -19,7 +19,7 @@ class SinglyLinkedlist:
             while(t1.next != None):
                 t1 = t1.next
             t1.next = temp
-        else :
+        else:
             self.head = temp
 
     def insertAtBeg(self,value):
