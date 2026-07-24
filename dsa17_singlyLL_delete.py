@@ -1,5 +1,5 @@
 #singly linked list
-#insertion at the end
+#insertion at the end, Begining, middile, and delete
 
 
 class Node:
@@ -15,7 +15,7 @@ class SinglyLinkedlist:
     def insertAtEnd(self,value):
         temp = Node(value)
         if(self.head != None):
-            t1 = self.head
+            t1 = self.headg
             while(t1.next != None):
                 t1 = t1.next
             t1.next = temp
