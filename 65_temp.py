@@ -13,5 +13,7 @@ arr = [1,1,2,2,3]
 k = remove_duplicate(arr)
 
 print(f"Number of unique elements: {k}")
-print(f"Modified array: {arr[:k]}" )
+print(f"Modified array: {arr[:k]}")
+
+
         
